@@ -1,0 +1,16 @@
+body {
+  font-family: Arial;
+  background: #f4f4f4;
+}
+
+.app {
+  width: 400px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+button {
+  margin-left: 5px;
+}
