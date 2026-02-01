@@ -10,11 +10,11 @@ function ToDoItem({ todo, deleteTodo, toggleTodo, editTodo }) {
       return;
     }
     editTodo(todo.id, newText);
-    setIsEditing(false);
+    setIsEditing(true);
   }
 
   return (
-    <div>
+    <div className="todo-item">
       <input
         type="checkbox"
         checked={todo.completed}

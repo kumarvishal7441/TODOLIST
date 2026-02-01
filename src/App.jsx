@@ -38,7 +38,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <Header />
       <ToDoList
         todos={todos}

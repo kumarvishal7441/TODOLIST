@@ -1,7 +1,7 @@
 import { useState } from "react";
 import ToDoItem from "./ToDoItem";
 
-function ToDoList({ todos, addTodo, deleteTodo, toggleTodo }) {
+function ToDoList({ todos, addTodo, deleteTodo, toggleTodo, editTodo }) {
   const [text, setText] = useState("");
 
   function handleChange(e) {
